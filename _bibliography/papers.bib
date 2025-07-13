@@ -1,115 +1,193 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{vieira2024,
+  author       = {Ronaldo {e Silva Vieira} and
+               Anderson Rocha Tavares and
+               Luiz Chaimowicz},
+  title        = {A taxonomy of collectible card games from a game-playing AI perspective},
+  booktitle    = {International Conference on Entertainment Computing (IFIP ICEC)},
+  series       = {Lecture Notes in Computer Science},
+  publisher    = {Springer},
+  year         = {2024},
+  abstract = {Collectible card games are challenging, widely played games that have received increasing attention from the AI research community in recent years. Despite important breakthroughs, the field still poses many unresolved challenges. This work aims to help further research on the genre by proposing a taxonomy of collectible card games by analyzing their rules, mechanics, and game modes from the perspective of game-playing AI research. To achieve this, we studied a set of popular games and provided a thorough discussion about their characteristics.},
+  pdf = {icec-2024.pdf},
+  doi = {https://doi.org/10.1007/978-3-031-74353-5_12},
+  arxiv = {2410.06299}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{lemos2024,
+title = {Enhancing deep reinforcement learning for scale flexibility in real-time strategy games},
+journal = {Entertainment Computing},
+volume = {52},
+pages = {100843},
+year = {2024},
+issn = {1875-9521},
+doi = {https://doi.org/10.1016/j.entcom.2024.100843},
+url = {https://www.sciencedirect.com/science/article/pii/S1875952124002118},
+author = {Marcelo Luiz Harry Diniz Lemos and Ronaldo {e Silva Vieira} and Anderson Rocha Tavares and Leandro Soriano Marcolino and Luiz Chaimowicz},
+keywords = {Deep Learning, Reinforcement learning, Real-Time Strategy Games, Game-playing AI},
+abstract = {Real-time strategy (RTS) games present a unique challenge for AI agents due to the combination of several fundamental AI problems. While Deep Reinforcement Learning (DRL) has shown promise in the development of autonomous agents for the genre, existing architectures often struggle with games featuring maps of varying dimensions. This limitation hinders the agent’s ability to generalize its learned strategies across different scenarios. This paper proposes a novel approach that overcomes this problem by incorporating Spatial Pyramid Pooling (SPP) within a DRL framework. We leverage the GridNet architecture’s encoder–decoder structure and integrate an SPP layer into the critic network of the Proximal Policy Optimization (PPO) algorithm. This SPP layer dynamically generates a standardized representation of the game state, regardless of the initial observation size. This allows the agent to effectively adapt its decision-making process to any map configuration. Our evaluations demonstrate that the proposed method significantly enhances the model’s flexibility and efficiency in training agents for various RTS game scenarios, albeit with some discernible limitations when applied to very small maps. This approach paves the way for more robust and adaptable AI agents capable of excelling in sequential decision problems with variable-size observations.},
+pdf = {entcom-2024.pdf},
+html = {https://doi.org/10.1016/j.entcom.2024.100843}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{lemos2023,
+  author    = {Marcelo Luiz Harry Diniz Lemos and
+               Ronaldo {e Silva Vieira} and
+               Anderson Rocha Tavares and
+               Leandro Soriano Marcolino and
+               Luiz Chaimowicz},
+  title     = {Scale-invariant reinforcement learning in real-time strategy games},
+  abstract  = {Real-time strategy games present a significant challenge for artificial game-playing agents by combining several fundamental AI problems. Despite the difficulties, attempts to create autonomous agents using Deep Reinforcement Learning have been successful, with bots like AlphaStar beating even expert human players. Many RTS games include several distinct world maps with different dimensions, which may affect the agent’s observation and the representation of game states. However, most current architectures suffer from fixed input sizes or require extensive and complex training. In this paper, we overcome these limitations by combining Grid-Wise Control with Spatial Pyramid Pooling (SPP). Specifically, we employ the encoder-decoder framework provided by the GridNet architecture and enhance the critic component of PPO by adding an SPP layer to it. The new layer generates a standardized representation of any game state regardless of the initial observation dimensions, allowing the agent to act on any map. Our evaluation demonstrates that our proposed method improves the models’ flexibility and provides a more effective and efficient solution for training autonomous agents in multiple RTS game scenarios.},
+  date      = {2023-11-07},
+  booktitle = {Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)},
+  publisher = {{IEEE}},
+  year      = {2023},
+  pdf       = {sbgames-2023.pdf},
+  selected  = {false},
+  doi = {10.1145/3631085.3631337}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@article{vieira2023,
+title = {Towards sample efficient deep reinforcement learning in collectible card games},
+journal = {Entertainment Computing},
+volume = {47},
+pages = {100594},
+year = {2023},
+issn = {1875-9521},
+doi = {https://doi.org/10.1016/j.entcom.2023.100594},
+url = {https://www.sciencedirect.com/science/article/pii/S1875952123000496},
+author = {Ronaldo {e Silva Vieira} and Anderson Rocha Tavares and Luiz Chaimowicz},
+keywords = {Reinforcement learning, Collectible card games},
+abstract = {Collectible card games (CCGs) are widely-played games in which players build a deck from a set of custom cards and use it to battle each other. They are notoriously more challenging than games such as Go and Texas Hold’em Poker, the protagonists of recent breakthroughs in game-playing AI. Deep reinforcement learning approaches have recently become state-of-the-art in CCGs, although requiring huge amounts of computational power to train. In this paper, we propose a collection of deep reinforcement learning approaches to battling in CCGs that are trainable on a single desktop computer. Each approach tries different mechanisms to increase sample efficiency. We use Legends of Code and Magic, a CCG designed for AI research, as a testbed and compare our approaches to each other, considering their win rate and other metrics. Then, we discuss the position of our approaches regarding the current literature, their limitations, directions of improvement, and extension to commercial CCGs.},
+pdf = {entcom-2023.pdf},
+selected = {true},
+html = {https://doi.org/10.1016/j.entcom.2023.100594}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{vieira2022b,
+  author    = {Ronaldo {e Silva Vieira} and
+               Anderson Rocha Tavares and
+               Luiz Chaimowicz},
+  title     = {Exploring reinforcement learning approaches for battling in collectible card games},
+  abstract  = {Collectible card games (CCGs), such as Magic: the Gathering and Hearthstone, are a challenging domain where game-playing AI arguably has not yet reached human-level performance. We propose a deep reinforcement learning approach to battling in CCGs, using Legends of Code and Magic, a CCG designed for AI research, as a testbed. To do so, we formulate the battles as a Markov decision process, train agents to solve it, and evaluate them against two existing agents of different skill levels. Contrasting with the current state-of-the-art, our resulting agents act fast and can play many battles per second, despite their limited performance. We identify limitations and discuss several promising directions for improvement.},
+  date      = {2022-10-24},
+  booktitle = {Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)},
+  publisher = {{IEEE}},
+  year      = {2022},
+  pdf       = {sbgames-2022.pdf},
+  selected  = {true},
+  award = {🥉 3rd best paper award!},
+  doi={10.1109/SBGAMES56371.2022.9961110}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{vieira2022a,
+title = {Exploring reinforcement learning approaches for drafting in collectible card games},
+journal = {Entertainment Computing},
+volume = {44},
+pages = {100526},
+year = {2022},
+issn = {1875-9521},
+doi = {https://doi.org/10.1016/j.entcom.2022.100526},
+url = {https://www.sciencedirect.com/science/article/pii/S1875952122000490},
+author = {Ronaldo {e Silva Vieira} and Anderson {Rocha Tavares} and Luiz Chaimowicz},
+keywords = {Reinforcement learning, Collectible card game, Deck-building},
+abstract = {Collectible card games (CCGs), such as Magic: the Gathering and Hearthstone, are played by tens of millions worldwide and are known for their usually large and intricate rules. From an artificial intelligence (AI) standpoint, playing CCGs consists of two interdependent tasks: deck-building and battling. This paper presents three deep reinforcement learning approaches for deck-building in the arena mode of CCGs. Our approaches are trained in self-play and differ in the handling of past information when drafting new cards for a deck. We formulate the problem in a game-agnostic manner and perform experiments on Legends of Code and Magic, a CCG designed for AI research. Considering the win rate of the decks when used by fixed battling agents, the results show that our trained drafting agents outperform the best ones available for the game and do so by building very different decks. We also reenact the Strategy Card Game AI competition and show that our best drafting strategy improves the win rate of a baseline competitor by 14.9 and 12.7 percentage points in the 2019 and 2020 editions.},
+html = {https://doi.org/10.1016/j.entcom.2022.100526}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{vieira2020,
+  author    = {Ronaldo {e Silva Vieira} and
+               Anderson Rocha Tavares and
+               Luiz Chaimowicz},
+  title     = {Drafting in collectible card games via reinforcement learning},
+  abstract  = {Collectible card games are played by tens of millions of players worldwide. Their intricate rules and diverse cards make them much more complex than traditional card games. To win, players must be proficient in two interdependent tasks: deck building and battling. In this paper, we present a deep reinforcement learning approach for deck building in arena mode - an understudied game mode present in many collectible card games, in which players build decks immediately before battling by drafting one card at a time from randomly presented candidates. We investigate three variants of the approach, and perform experiments on Legends of Code and Magic, a collectible card game designed for AI research. Results show that our learned draft strategies outperform those of the best agents of the game. Moreover, a participant of the Strategy Card Game AI competition improves from tenth to fourth place when coupled with our best drafting approach.},
+  date      = {2020-11-07},
+  booktitle = {Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)},
+  publisher = {{IEEE}},
+  year      = {2020},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  pdf       = {sbgames-2020.pdf},
+  video     = {https://www.youtube.com/watch?v=br-uwaXmKCA},
+  selected  = {true},
+  award = {🥇 Best paper award!},
+  doi={10.1109/SBGames51465.2020.00018}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@masterthesis{master-thesis,
+title = {Drafting in collectible card games via reinforcement learning},
+author = {Ronaldo {e Silva Vieira}},
+year = {2020},
+date = {2020-10-13},
+address = {Belo Horizonte, MG, Brazil},
+school = {Departamento de Ciência da Computação, Universidade Federal de Minas Gerais},
+keywords = {Reinforcement Learning, Games, Collectible Card Games, Deck Building},
+type = {thesis},
+pubstate = {published},
+tppubtype = {mastersthesis},
+abstract    = {Collectible card games (CCGs), such as Magic: the Gathering and Hearthstone, are played by tens of millions of players worldwide, and their vast state and action spaces, intricate rules and diverse cards make them challenging for humans and artificial intelligence (AI) agents alike. In them, players build a deck using cards that representcreatures, items or spells from a fantasy world and use it to battle other players. Therefore, to win, players must be proficient in two interdependent tasks: deck building and battling. The advent of strong and fast AI players would enable, for instance, thorough playtesting of new cards before they are made available to the public, which is a longstanding problem in the CCG industry. In this thesis, we present a deep reinforcement learning approach for deck-building in the arena mode – an understudied game mode present in most commercial collectible card games. In arena, players build decks immediately before battling by drafting one card at a time from randomly presented candidates. We formulate the problem in a game-agnostic manner and investigate three approaches that differ on how to consider the cards drafted so far in the next choices, using different game state representations and types of neural networks. We perform experiments on Legends of Code and Magic, a collectible card game designed for AI research. Considering the win rate of the decks when used by fixed battling AIs, the results show that our trained draft agents outperform the best draft agents of the game, and do so by building very different decks. Moreover, a participant of the Strategy Card Game AIcompetition improves from tenth to fourth place when using our best draft agent to build decks. We conclude with a discussion on the results, contributions and limitations of this work as well as directions for future research.},
+pdf         = {master-thesis.pdf},
+video       = {https://www.youtube.com/watch?v=OItezchRzhI},
+html        = {https://repositorio.ufmg.br/handle/1843/38313}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{vieira2019b,
+  author    = {Ronaldo {e Silva Vieira} and
+               Luiz Chaimowicz and
+               Anderson Rocha Tavares},
+  title     = {Reinforcement learning in collectible card games: preliminary results on {L}egends of {C}ode and {M}agic},
+  abstract  = {Games have long been a popular application area for research on artificial intelligence. They provide hard and diverse challenges whose solution often apply to real-life problems. Games like Chess, Go and recently Poker can be played by computers at superhuman level, but this performance is yet to be achieved in more complex games, such as collectible card games. To tackle this problem, we propose a pure reinforcement learning approach to the card game Legends of Code and Magic, in contrast to search strategies, most commonly used in this domain. In this paper, we present the intended methodology, preliminary results and the next steps of the project.},
+  booktitle = {Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)},
+  publisher = {{IEEE}},
+  year      = {2019},
+  timestamp = {Tue, 17 Dec 2019 16:49:17 +0100},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  pdf       = {sbgames-2019.pdf},
+  poster    = {sbgames-2019-poster.pdf},
+}
+
+@article{vieira2019a,
+  title={Modelando um esconde-esconde no Minecraft utilizando Hidden Markov Model},
+  abstract={A criação de agentes inteligentes é uma área da inteligência artificial que busca construir entidades capazes de desempenhar ações semelhantes aos seres humanos. Dessa forma, é possível modelar cenários e avaliar a tomada de decisão de entidades envolvidas nesses cenários. Este trabalho consiste na construção de agentes inteligentes para participarem da brincadeira de esconde-esconde. Para isso, é desenvolvida uma abordagem probabilística baseada em um Hidden Markov Model, que utiliza o jogo Minecraft como plataforma para sua aplicação. Os experimentos realizados demonstram que a estratégia desenvolvida permite a interação entre os agentes de forma adequada às regras da brincadeira.},
+  author={e Silva Vieira, Ronaldo and Leal, Matheus Rodrigues and Chaimowicz, Luiz},
+  journal={Singular Engenharia, Tecnologia e Gest{\~a}o},
+  volume={1},
+  number={1},
+  pages={48--52},
+  year={2019},
+  html={https://doi.org/10.33911/singular-etg.v1i1.16},
+  pdf={singularetg-2019.pdf}
+}
+
+@inproceedings{DBLP:conf/iccsa/VieiraDAB18,
+  author    = {Ronaldo {e Silva Vieira} and
+               Bruno Dembogurski and
+               Leandro G. M. Alvim and
+               Filipe Braida},
+  editor    = {Osvaldo Gervasi and
+               Beniamino Murgante and
+               Sanjay Misra and
+               Elena N. Stankova and
+               Carmelo Maria Torre and
+               Ana Maria A. C. Rocha and
+               David Taniar and
+               Bernady O. Apduhan and
+               Eufemia Tarantino and
+               Yeonseung Ryu},
+  title     = {A cognitive architecture for agent-based artificial life simulation},
+  abstract  = {The ability to simulate living beings that behave in a credible way is a fundamental aspect in digital games. This is due to its interdisciplinary characteristic, that brings together different fields of knowledge to better understand biological life and its processes. In this context, the design of an intelligent agent is a hard task as it involves a complex system, which has several interconnected components. In this work a virtual mind architecture for intelligent agents is proposed, where it simulates the cognitive processes of an actual brain, in this case attention and memory, in order to reproduce behaviors similar to those of actual living beings. A prototype is then proposed, where the architecture is applied on agents that represent virtual animals in a semantic-modeled ecosystem, and conduct a proof-of-concept experiment with it to demonstrate its effectiveness. In this experiment, the behavior of the virtual animals were consistent with reality, thus, validating the architecture’s ability to simulate living beings.},
+  booktitle = {International Conference on Computational Science and its Applications ({ICCSA}) 2018},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {10960},
+  pages     = {197--213},
+  publisher = {Springer},
+  year      = {2018},
+  url       = {https://doi.org/10.1007/978-3-319-95162-1\_14},
+  doi       = {10.1007/978-3-319-95162-1\_14},
+  timestamp = {Tue, 14 May 2019 10:00:43 +0200},
+  biburl    = {https://dblp.org/rec/conf/iccsa/VieiraDAB18.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  html      = {https://link.springer.com/chapter/10.1007%2F978-3-319-95162-1_14},
+  pdf       = {iccsa-2018.pdf}
 }
